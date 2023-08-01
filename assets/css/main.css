@@ -3855,7 +3855,9 @@ body.is-ie #sidebar > .inner {
 body.is-preload #sidebar > .inner {
 	opacity: 0;
 }
-
+.front-end-project {
+	width: 600px;
+}
 body.is-preload #sidebar nav ul li {
 	-moz-transform: translateY(2em);
 	-webkit-transform: translateY(2em);
