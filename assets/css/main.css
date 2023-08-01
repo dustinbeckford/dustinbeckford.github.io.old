@@ -3858,6 +3858,13 @@ body.is-preload #sidebar > .inner {
 .front-end-project {
 	width: 600px;
 }
+
+@media screen and (max-width: 480px) {
+	.front-end-project {
+		width: 400px;
+	}
+}
+
 body.is-preload #sidebar nav ul li {
 	-moz-transform: translateY(2em);
 	-webkit-transform: translateY(2em);
