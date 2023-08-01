@@ -3855,19 +3855,31 @@ body.is-ie #sidebar > .inner {
 body.is-preload #sidebar > .inner {
 	opacity: 0;
 }
+/* Default styles for .front-end-project */
 .front-end-project {
 	width: 600px;
 }
 
+/* Responsive styles for small screens (up to 480px) */
 @media screen and (max-width: 480px) {
 	.front-end-project {
-		width: 400px;
+		width: 100%; /* Set the width to the full width of the screen */
+		max-width: 400px; /* Set a maximum width to prevent stretching on larger screens */
 	}
 }
 
-@media screen and (max-width: 480px) {
+/* Responsive styles for medium screens (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
 	.front-end-project {
-		width: 250px;
+		width: 70%; /* Set the width to 70% of the screen width */
+		max-width: 600px; /* Set a maximum width to prevent stretching on larger screens */
+	}
+}
+
+/* Responsive styles for large screens (769px and above) */
+@media screen and (min-width: 769px) {
+	.front-end-project {
+		width: 600px; /* Reset the width to the default value for large screens */
 	}
 }
 
