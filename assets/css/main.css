@@ -3287,9 +3287,10 @@ table.alt tfoot {
 }
 
 .wrapper > .inner {
-	padding: 5em 5em 3em 5em;
+	padding: 5em 5em 3em 7em;
 	max-width: 100%;
 	width: 75em;
+	margin-left: auto; /* Add this line */
 }
 
 @media screen and (max-width: 1680px) {
@@ -3309,7 +3310,9 @@ table.alt tfoot {
 		padding: 3em 2em 1em 2em;
 	}
 }
-
+.inner-text {
+	color: rgb(3, 3, 3);
+}
 .wrapper.alt {
 	background-color: #261c3e;
 }
